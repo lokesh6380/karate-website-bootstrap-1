@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <!--link-bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assest 2/css/bootstrap.min.css">
+<!--link css-->
+<link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container-fluid gx-0">
+    <!---Navbar Start-->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand logo text-uppercase " href="#">Isshinriyu Karate
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!--kela ms auto kudutha right side la align aidum-->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <!--inga iruka active edutha home normal aidum-->
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contacts</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Tournament.html">Tournament</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="grading.html">Grading</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Demo.html">Demo</a></li>
+                </ul>
+              </li>
+            
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Schedule
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Schedule 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Schedule 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Schedule 3</a></li>
+                </ul>
+              
+              </li>
+              <li class="nav-item">
+                <a class="btn-navbar text-uppercase " href="Register.html">Register </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar end-->
+    </div>
+    </div>
+
+
+    <!---Registration-form-start-->
+<div class="container">
+
+  <div class="row mb-3">
+    <div class="col">
+      <label for="Name" class="form-label mt-5">First Name:</label>
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+
+    <div class="col">
+      <label for="Name" class="form-label mt-5">Last Name:</label>
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+        
+ <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+
+  <label for="inputEmail4" class="form-label">Gender:</label>
+<div class="">
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">Male</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    <label class="form-check-label" for="inlineRadio2">Female</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+    <label class="form-check-label" for="inlineRadio3">Others</label>
+  </div>
+  
+</div>
+ 
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Master</label>
+    <select id="inputState" class="form-select">
+      <option selected>Master...</option>
+      <option>Renshi Moideen</option>
+      <option>Renshi Sabari</option>
+      <option>Sensei Kannan</option>
+      <option>Sensei Suresh</option>
+      <option>Sensei Azar</option>
+      <option>Sensei Sundar</option>
+
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Agree to Terms and Conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary mb-2">Sign in</button>
+  </div>
+</form>
+
+</div>
+    <!--Registration-form-end-->
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

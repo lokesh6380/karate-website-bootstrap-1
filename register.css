@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+    background-image:url('img/pexels-cottonbro-studio-7988831.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.navbar-brand{
+    font-size:2rem ;
+    color:white;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+    color:#FF0060;
+}
+.header{
+    height: 25vh;
+    width: 100%;
+}
+.navbar{
+    padding: 15px 18px !important;
+    
+}
+go{
+    font-weight: 600;
+    color:black;
+}
+.nav-item{
+    margin:0px 15px ;
+}
+.nav-item .nav-link{
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.nav-item .nav-link:hover{
+    color:#FF0060;
+border:2px solid black;
+width:fit-content;
+border-radius: 10px;
+
+}
+@media(max-width:990px){
+    .nav-item .nav-link:hover{
+        color:#FF0060;
+        border: none;
+    }
+}
+.dropdown-item{
+    font-weight: 500;
+    }
+    .dropdown-item:hover{
+color:#FF0060;
+    }
+.btn-navbar{
+    display: inline-block;
+    padding: 10px 43px;
+    border:2px solid black;
+    color:white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color:#FF0060;
+    margin-top: 5px;
+
+}
+.btn-navbar:hover{
+    box-shadow: 5px 5px  20px #FF0060;
+    box-shadow: 5px 5px  60px #FF0060 ;
+}
+
+
+
+.container{
+    background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+    box-shadow: 4px -4px 28px -2px rgba(0,0,0,0.49);
+-webkit-box-shadow: 4px -4px 28px -2px rgba(0,0,0,0.49);
+-moz-box-shadow: 4px -4px 28px -2px rgba(0,0,0,0.49);
+border-radius: 10px;
+
+filter: blur(5%);
+}
